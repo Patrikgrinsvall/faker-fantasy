@@ -1,0 +1,28 @@
+{
+  "name": "patrikgrinsvall/faker-fantasy",
+  "description": "Faker provider for fantasy names. Support for the deprecated faker and standalone",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Patrikgrinsvall\\FakerFantasy\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Patrik",
+      "email": "patrik.grinsvall@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "tests": "vendor/bin/pest"
+  },
+  "require": {
+    "phpunit/phpunit": "^9.5",
+    "pestphp/pest": "^1.21",
+    "pestphp/pest-plugin-faker": "^1.0",
+    "illuminate/support": "^8.77"
+  }
+}
